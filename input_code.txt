@@ -1,0 +1,45 @@
+/* long
+comment long
+comment */
+
+
+function void fee1(int i, j, k, x) {
+    function bool fee2(int l, m, n) {
+	    var bool x, j; /* declarations */
+	    var char k;
+	    k = '@'; /* statements */
+	    i = l + l;
+	    if (m < i) {
+		    x = true;
+	    }
+        return x;
+    }
+    {
+	    var char x;
+	    var bool k;
+	    k = fee2(5, i, j);
+    }
+    x = k;
+}
+
+
+
+function int foo2() {
+    string s1[100] = "aba", s2[40], s3[20]="";
+    var int i, j=0, cnt;
+    cnt = 1;
+    for (i = 0; i < 100; i = i + 1) {
+	    do {
+	        if (s1[i] == s2[j])
+		    cnt = cnt * 2;
+	        j = j + 1;
+	    }while(j < 40/2);
+	    j = i * 2;
+    }
+    return cnt;
+}
+
+function void main() {
+    var int a;
+    a = foo2();
+}
